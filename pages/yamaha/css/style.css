@@ -201,11 +201,13 @@ aside {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
+    width:1000px;
 }
 
 .cardlist {
     height: 515px;
     display: inline-flex;
+    width:1800px;
 }
 
 
@@ -733,6 +735,71 @@ i {
     display:none;
 }
 
+.product.set3 .procard img{
+    width:150px;
+    height:150px;
+    margin-left:80px;
+}
+.product.set4 .procard:nth-child(3) img {
+    width:200px;
+    height:200px;
+    margin-left:90px;
+}
+.product.set5 .procard:nth-child(3) h4 {
+    font-size:28px;
+}
+.product.set5 .procard:nth-child(4) img {
+    width:200px;
+    height:200px;
+    margin-left:90px;
+}
+.product.set7 .procard:nth-child(1) img,
+.product.set7 .procard:nth-child(2) img,
+.product.set7 .procard:nth-child(3) img,
+.product.set7 .procard:nth-child(4) img,
+.product.set7 .procard:nth-child(5) img,
+.product.set7 .procard:nth-child(6) img,
+.product.set7 .procard:nth-child(7) img
+{
+    width:150px;
+    height:150px;
+    margin-left:80px;
+}
+
+.product.set8 .procard:nth-child(1) img,
+.product.set8 .procard:nth-child(3) img {
+    width:150px;
+    height:150px;
+    margin-left:80px;
+}
+
+.product.set9 .procard:nth-child(1) img,
+.product.set9 .procard:nth-child(3) img,
+.product.set9 .procard:nth-child(4) img {
+    width:150px;
+    height:150px;
+    margin-left:80px;
+}
+.product.set10 .procard:nth-child(1) img,
+.product.set10 .procard:nth-child(2) img,
+.product.set10 .procard:nth-child(3) img,
+.product.set10 .procard:nth-child(4) img {
+    width:150px;
+    height:150px;
+    margin-left:80px;
+}
+.product.set11 .procard:nth-child(1) img,
+.product.set11 .procard:nth-child(2) img,
+.product.set11 .procard:nth-child(3) img {
+    width:150px;
+    height:150px;
+    margin-left:80px;
+}
+.product.set12 .procard:nth-child(1) img {
+    width:200px;
+    height:200px;
+    margin-left:50px;
+}
 @media all and (min-width:1024px) {
     
     html {
@@ -849,6 +916,7 @@ i {
 
     .wrapper-slider {
         margin-left: 700px;
+        display:flex;
     }
 
     .protitle {
@@ -1300,6 +1368,7 @@ i {
     }
     .product.set3 .procard img{
         width:200px;
+        height:200px;
         margin-left:90px;
     }
     .product.set2,
@@ -1315,6 +1384,7 @@ i {
     .product.set12 {
         display:none;
     }
+
     .product.set4 .procard:nth-child(3) img {
         width:200px;
         height:200px;

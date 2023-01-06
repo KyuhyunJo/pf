@@ -88,7 +88,22 @@ jQuery(document).ready(function () {
           
 
         //////////////////플레이리스트///////////////////////
+           $('.conbox>.box>a').click(function() {
+            $('.cardlist').slick('slickGoTo', 0);
+          });
+          
 
+          $('.cardlist').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            prevArrow: null,
+            nextArrow: null,
+            setPosition:0,
+            variableWidth : true,
+            dots:true,
+          }); 
+
+        //////////////////////////////////////////////////
     }//일반 js 넣는곳
 
 //////////////////////////////////////////////////////
