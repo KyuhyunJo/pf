@@ -266,6 +266,8 @@ header .header-inner .nav .navlist > li:nth-child(2) {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-top:50px;
+    margin-left:20px;
 }
 .main img{
     display: block;
@@ -478,13 +480,13 @@ header .header-inner .nav .navlist > li:nth-child(2) {
     font-size:14px;
 }
 .game .date {
-    font-family:'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight:300;
     position: absolute;
     bottom:16px;
 }
 .game .company {
-    font-family:'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight:300;
     position: absolute;
     bottom:0;
@@ -714,12 +716,12 @@ header .header-inner .nav .navlist > li:nth-child(2) {
 }
 .newsend .date {
     position: absolute;
-    font-family:'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight:500;
     bottom:80px;
 }
 .newsend .company {
-    font-family:'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight:500;
     position:absolute;
     bottom: 50px;
@@ -1011,7 +1013,7 @@ footer {
 }
 .btmenu ul li a {
     font-size:45px;
-    font-family:'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
 }
 
@@ -1080,14 +1082,14 @@ footer {
     float:left;
     width:600px;
     height:120px;
-    font-family: 'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .copybtn {
     display:flex;
 }
 .copybtn a{
-    font-family: 'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
     color: #737373;
 }
 .copybtn a:first-child {
@@ -1102,20 +1104,20 @@ footer {
     float:right;
     width:600px;
     height:120px;
-    font-family: 'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
     text-align: right;
 }
 
 .copy {
-    font-family: 'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .address span {
-    font-family: 'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .infobottom,
 .infotop {
-    font-family: 'Noto Sans KR';
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .infobottom {
