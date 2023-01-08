@@ -862,21 +862,11 @@ i {
 
     .pcmenu li {
         font-size: 20px;
+        height:50px;
     }
 
     .top {
         display: flex;
-    }
-
-    #menu_bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -50;
-        width: 100%;
-        height: 500px;
-        background-color: #ccc;
-        display: none;
     }
 
     .contents {
@@ -1445,4 +1435,40 @@ i {
         height:200px;
         margin-left:90px;
     }
+    .pcmenu li {
+        display: inline-block;
+        padding: 0 20px;
+      }
+      
+      .pcmenu li a {
+        position: relative;
+        display: block;
+        cursor: pointer;
+    }
+    .pcmenu li a:before, .pcmenu li a:after {
+        content: "";
+        position: absolute;
+        top:90px;
+        width: 0%;
+        height: 4px;
+        bottom: -2px;
+        margin-top: -0.5px;
+        background: #333;
+      }
+      .pcmenu li a:before {
+        left: -2.5px;
+      }
+      .pcmenu li a:after {
+        right: 2.5px;
+        background: #333;
+        transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+      }
+      .pcmenu li a:hover:before {
+        background: #333;
+        width: 100%;
+        transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+      }
+      .pcmenu li a:hover:after {
+        background: transparent;
+        width: 100%;
 }
