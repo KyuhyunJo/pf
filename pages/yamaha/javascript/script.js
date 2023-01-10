@@ -21,15 +21,14 @@ jQuery(document).ready(function () {
         });
     
         //어사이드 메뉴 슬라이드업다운
-
         $('.mainmenu>li:nth-child(2)').click(function(){
             $('.mainmenu>li:nth-child(2)>.submenu').css({ 'display' : 'flex'});
         });
+
+        //어사이드 메뉴2번 flex
     }//mobile js넣는곳
 
     function pc(){
-
-    
         $('.top').mouseenter(function () {
             $('.pcmenu').css({ 'color': '#333' });
             $('.logo a:nth-child(2) img').css({ 'display': 'block' });
@@ -51,34 +50,33 @@ jQuery(document).ready(function () {
 
     }//pc js 넣는 곳
     function common(){
-        $('.conbox .box a').click(function () {
-            $(this).parent().addClass("active").siblings().removeClass("active");
-            return false;
+        $('.conbox .box').click(function (e) {
+            e.preventDefault();
+        let i = $(this).index();
+        
+        $('.product').eq(i).show().siblings().hide();
+        $('.product').eq(i).find('.cardlist').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            prevArrow: null,
+            nextArrow: null,
+            setPosition:0,
+            variableWidth : true,
+            dots:true,
+          });
         });
-    
+
+        $('.conbox .box a').click(function(){
+            $(this).parent().addClass("active").siblings().removeClass("active");
+        })
+
+        //////////////////슬릭슬라이더//////////
+
         $('.pllist>li>a').click(function () {
             $(this).parent().addClass("active").siblings().removeClass("active");
             return false;
         });
-    
-        ///////////////////액티브변경/////////////////
-        const conboxBoxes = document.querySelectorAll('.conbox .box a');
-
-        conboxBoxes.forEach((box, index) => {
-            box.addEventListener('click', () => {
-            const productSets = document.querySelectorAll('.product');
-            productSets.forEach((productSet, i) => {
-            if (index === i) {
-                productSet.style.display = 'block';
-            } else {
-                productSet.style.display = 'none';
-            }
-            });
-});
-        });
-        
-        //////////////////.conbox를 클릭하면 같은순서의 product가 보인다////////
-        
+      
         $('.pllist li a').click(function() {
             $('.artistset').css('display', 'flex');
             $('.artistset').hide();
@@ -86,14 +84,17 @@ jQuery(document).ready(function () {
             $('.artistset.ar' + (index + 1)).show();
           });
           
-
         //////////////////플레이리스트///////////////////////
            $('.conbox>.box>a').click(function() {
             $('.cardlist').slick('slickGoTo', 0);
           });
           
 
+<<<<<<< Updated upstream
           $('.cardlist').slick({
+=======
+          $('.product').eq(0).find('.cardlist').slick({
+>>>>>>> Stashed changes
             slidesToShow: 3,
             slidesToScroll: 1,
             prevArrow: null,
