@@ -731,73 +731,6 @@ i {
     display:none;
 }
 
-<<<<<<< Updated upstream
-.product.set3 .procard img{
-    width:150px;
-    height:150px;
-    margin-left:80px;
-}
-.product.set4 .procard:nth-child(3) img {
-    width:200px;
-    height:200px;
-    margin-left:90px;
-}
-.product.set5 .procard:nth-child(3) h4 {
-    font-size:28px;
-}
-.product.set5 .procard:nth-child(4) img {
-    width:200px;
-    height:200px;
-    margin-left:90px;
-}
-.product.set7 .procard:nth-child(1) img,
-.product.set7 .procard:nth-child(2) img,
-.product.set7 .procard:nth-child(3) img,
-.product.set7 .procard:nth-child(4) img,
-.product.set7 .procard:nth-child(5) img,
-.product.set7 .procard:nth-child(6) img,
-.product.set7 .procard:nth-child(7) img
-{
-    width:150px;
-    height:150px;
-    margin-left:80px;
-}
-
-.product.set8 .procard:nth-child(1) img,
-.product.set8 .procard:nth-child(3) img {
-    width:150px;
-    height:150px;
-    margin-left:80px;
-}
-
-.product.set9 .procard:nth-child(1) img,
-.product.set9 .procard:nth-child(3) img,
-.product.set9 .procard:nth-child(4) img {
-    width:150px;
-    height:150px;
-    margin-left:80px;
-}
-.product.set10 .procard:nth-child(1) img,
-.product.set10 .procard:nth-child(2) img,
-.product.set10 .procard:nth-child(3) img,
-.product.set10 .procard:nth-child(4) img {
-    width:150px;
-    height:150px;
-    margin-left:80px;
-}
-.product.set11 .procard:nth-child(1) img,
-.product.set11 .procard:nth-child(2) img,
-.product.set11 .procard:nth-child(3) img {
-    width:150px;
-    height:150px;
-    margin-left:80px;
-}
-.product.set12 .procard:nth-child(1) img {
-    width:200px;
-    height:200px;
-    margin-left:50px;
-}
-=======
 
 img.piano,
 img.uppiano,
@@ -872,7 +805,6 @@ img.app {
     left:-15px;
 }
 
->>>>>>> Stashed changes
 @media all and (min-width:1024px) {
     
     html {
@@ -1425,18 +1357,6 @@ img.app {
         display:block;
     }
 
-<<<<<<< Updated upstream
-    .product.set2 .procard img{
-        width:200px;
-        margin-left:90px;
-    }
-    .product.set3 .procard img{
-        width:200px;
-        height:200px;
-        margin-left:90px;
-    }
-=======
->>>>>>> Stashed changes
     .product.set2,
     .product.set3,
     .product.set4,
@@ -1450,10 +1370,6 @@ img.app {
     .product.set12 {
         display:none;
     }
-<<<<<<< Updated upstream
-
-    .product.set4 .procard:nth-child(3) img {
-=======
     img.ampguitar {
         width:400px;
         height:500px;
@@ -1468,7 +1384,6 @@ img.app {
         left:-50px;
     }
     img.drum, img.eldrum, img.modrum {
->>>>>>> Stashed changes
         width:200px;
         height:200px;
         left:-50px;
@@ -1578,40 +1493,4 @@ img.app {
         left:-100px;
         top:240px;
     }
-    .pcmenu li {
-        display: inline-block;
-        padding: 0 20px;
-      }
-      
-      .pcmenu li a {
-        position: relative;
-        display: block;
-        cursor: pointer;
-    }
-    .pcmenu li a:before, .pcmenu li a:after {
-        content: "";
-        position: absolute;
-        top:90px;
-        width: 0%;
-        height: 4px;
-        bottom: -2px;
-        margin-top: -0.5px;
-        background: #333
-      }
-      .pcmenu li a:before {
-        left: -2.5px;
-      }
-      .pcmenu li a:after {
-        right: 2.5px;
-        background: #333;
-        transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
-      }
-      .pcmenu li a:hover:before {
-        background: #333;
-        width: 100%;
-        transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
-      }
-      .pcmenu li a:hover:after {
-        background: transparent;
-        width: 100%;
 }

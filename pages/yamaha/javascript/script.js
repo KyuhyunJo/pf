@@ -85,16 +85,8 @@ jQuery(document).ready(function () {
           });
           
         //////////////////플레이리스트///////////////////////
-           $('.conbox>.box>a').click(function() {
-            $('.cardlist').slick('slickGoTo', 0);
-          });
-          
 
-<<<<<<< Updated upstream
-          $('.cardlist').slick({
-=======
           $('.product').eq(0).find('.cardlist').slick({
->>>>>>> Stashed changes
             slidesToShow: 3,
             slidesToScroll: 1,
             prevArrow: null,
